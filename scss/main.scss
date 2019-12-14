@@ -19,15 +19,16 @@ h1,
 h2,
 h3 {
     margin: 0;
-    font-weight: 400;
+    font-weight: 300;
 
     &.lg-heading {
         font-size: 6rem;
     }
     &.sm-heading {
         margin-bottom: 2rem;
-        padding: 0.2rem 1rem;
-        background: rgba(lighten($color-primary, 2), 0.5);
+        padding: 0.6rem 0;
+        font-size: 2.5rem;
+        //background: rgba(lighten($color-primary, 1), 0.5);
     }
 }
 
@@ -133,12 +134,12 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
     div {
         font-size: 2rem;
         border: 3px solid #fff;
         padding: 1.5rem 2.5rem;
-        margin-bottom: 3rem;
+        margin: 3rem;
         @include easeOut;
 
         &:hover {
@@ -161,6 +162,10 @@ main {
     &:hover {
         background: $color-tertiary;
         color: set-text-color($color-tertiary);
+    }
+
+    & i {
+        padding-right: 1rem;
     }
 }
 
