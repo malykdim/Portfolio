@@ -53,9 +53,12 @@ main {
     min-height: calc(100vh - 60px);
     .icons {
         margin-top: 1rem;
+        
+        
 
         a {
             padding: 0.4rem;
+            margin-right: 1.5rem;
 
             &:hover {
                 color: $color-tertiary;
@@ -137,7 +140,7 @@ main {
     margin-top: 3rem;
     div {
         font-size: 2rem;
-        border: 3px solid #fff;
+        border: 1px solid #fff;
         padding: 1.5rem 2.5rem;
         margin: 3rem;
         @include easeOut;
@@ -151,6 +154,7 @@ main {
             }
         }
     }
+    
 }
 
 .btn {
@@ -166,6 +170,7 @@ main {
 
     & i {
         padding-right: 1rem;
+        
     }
 }
 
